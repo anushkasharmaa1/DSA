@@ -8,11 +8,6 @@ class Solution:
                 break
         if j==-1:
             return ""
-        i=0
-        while(i<len(num)):
-            if int(num[i])!=0:
-                break
-            i+=1
-        return num[i:j+1]
+        return num[0:j+1]
 
         
